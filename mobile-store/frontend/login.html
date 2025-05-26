@@ -1,0 +1,32 @@
+<!-- frontend/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Mobile Store</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">📱 Mobile Store</div>
+    <nav class="header__nav">
+      <a href="index.html" class="header__link">Home</a>
+      <a href="signup.html" class="header__link">Register</a>
+      <a href="login.html" class="header__link">Login</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1 class="main__title">Login</h1>
+    <form class="form" id="login-form">
+      <input type="text" placeholder="Username" name="userId" required class="form__input"/>
+      <input type="password" placeholder="Password" name="password" required class="form__input"/>
+      <button type="submit" class="form__button">Login</button>
+    </form>
+    <p class="form__text">Don't have an account? <a href="signup.html">Register here</a>.</p>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>

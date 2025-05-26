@@ -1,0 +1,30 @@
+<!-- frontend/order.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Confirmation - Mobile Store</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo">📱 Mobile Store</div>
+    <nav class="header__nav">
+      <a href="index.html" class="header__link">Home</a>
+      <a href="cart.html" class="header__link">Cart</a>
+      <button onclick="logout()" class="header__link">Logout</button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1 class="main__title">🧾 Your Orders</h1>
+    <section id="order-list">
+      <!-- Orders will be loaded here -->
+    </section>
+  </main>
+
+  <script src="js/utils.js"></script>
+  <script src="js/order.js"></script>
+</body>
+</html>
